@@ -1,0 +1,46 @@
+.inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.header__left h1 {
+  color: darkblue;
+}
+
+.nav {
+  display: flex; 
+  justify-content: space-around;
+
+}
+
+.nav__item {
+  list-style: none
+}
+
+.nav__item a {
+  text-decoration: none;
+  display: block;
+  margin-left: 20px;
+  font-size: 12px;
+  color: darkblue;
+}
+
+.concept__img {
+  display: block;
+  width: 50%;
+  margin:60px 0  0 auto;
+}
+
+.concept__contents {
+  margin-top: -100px;
+}
+
+.box-child {
+  background: #0000CD;
+  width: 75%;
+  height: 150px;
+}
+.concept__contents__ttl p {
+  font-size: 40px;
+}
